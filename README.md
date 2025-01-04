@@ -1,6 +1,6 @@
 # E-commerce Website 🌱
 
-Welcome to E-commerce website, where green meets serenity! This project is a small e-commerce website built using **React** as part of my learning journey in **Full-Stack Development** with IBM. The website is now live on **GitHub Pages** and showcases a variety of plants that can be purchased online.
+Welcome to **E-commerce Website**, where green meets serenity! This project is a small e-commerce website built using **React** as part of my learning journey in **Full-Stack Development** with IBM. The website is now live on **GitHub Pages** and showcases a variety of plants that can be purchased online.
 
 ## 🚀 Live Demo
 
@@ -40,11 +40,90 @@ This project is part of my **Full-Stack Development** course with IBM. It's a ha
 │   └── main.jsx
 ├── README.md
 └── package.json
+```
 
-# Clone the repository:
-git clone https://github.com/santanaoliva-u/e-plantShopping.git
+## 🛠️ Installation Guide
 
-# Contact
-For any questions or feedback, please reach out to me at urielsantanaoliva@gmail.com.
-# e-plantShopping-
-# e-plantShopping-
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+1. **Node.js**: Install Node.js from [here](https://nodejs.org/).
+2. **Git**: Ensure Git is installed. Download it from [here](https://git-scm.com/).
+
+### Steps to Install and Run
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/santanaoliva-u/e-plantShopping.git
+   cd e-plantShopping
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the project in your browser:**
+
+   Navigate to `http://localhost:3000` to see the website in action.
+
+5. **Build for production (optional):**
+
+   ```bash
+   npm run build
+   ```
+
+6. **Preview the production build (optional):**
+
+   ```bash
+   npm run preview
+   ```
+
+### Secure Installation Script
+
+For a quick and secure setup, you can use the following shell script:
+
+```bash
+#!/bin/bash
+
+# Secure installation script for e-plantShopping
+
+echo "Cloning the repository..."
+git clone https://github.com/santanaoliva-u/e-plantShopping.git && cd e-plantShopping || exit
+
+echo "Installing dependencies..."
+npm install || { echo "Failed to install dependencies."; exit 1; }
+
+echo "Starting the development server..."
+npm run dev || { echo "Failed to start the development server."; exit 1; }
+
+echo "Setup complete. Visit http://localhost:3000 to view the application."
+```
+
+Save the script as `install.sh`, give it execution permissions using `chmod +x install.sh`, and run it with `./install.sh`.
+
+## 🎥 Application Demo
+
+To see how the application works, check out the demo video:
+
+[![Application Demo](https://via.placeholder.com/640x360.png?text=Click+to+Watch+Demo)](2025-01-04%2018-10-04.mkv)
+
+Alternatively, you can download and watch the video locally from [here](2025-01-04%2018-10-04.mkv).
+
+## 📧 Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email:** urielsantanaoliva@gmail.com
+
+---
+Thank you for visiting this repository! Your feedback is highly appreciated. 🌱
